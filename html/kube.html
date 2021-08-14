@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>KUBERNETES</title>
+		<link rel="stylesheet" type="text/css" href="./css/master.css">
+		<link rel="stylesheet" type="text/css" href="./css/services.css">
+		<link rel="stylesheet" type="text/css" href="./css/hadoop+storage.css">
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li class="left"><a class="hooper" href="http://3.109.167.61/list.html">Home</a></li>
+				<li class="right"><a class="signin" href="http://3.109.167.61/index.html">Log out</a></li>
+			</ul>
+		</nav>
+		<div class="container">
+			<div class="about-holder">
+				<div id="about">
+					"We are providing Kubernetes as a Service Here"<br>
+				</div>
+			</div>
+			<div class="data">
+				<form method='post' action='http://3.109.167.61/cgi-bin/kube.py'>
+					<!--username:<input type='text' name='user' />-->
+					<input type="text" name="c" placeholder="no.of pods"><br><br>
+					<input type="submit" value="submit"><br>
+				</form>
+			</div>
+		</div>
+		<footer>
+			<div class="dev-right">
+				<h2><u>Developed By</u></h2><br>
+				<div>
+					
+					<div class="details">
+						Devops Team<br>
+					
+					</div>
+				</div>
+			</div>
+			<div class="dev-left">
+				<h2><u>Website By</u></h2><br>
+				<div>
+					
+					<div class="details">
+						Devops team
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript">
+				document.getElementById("about").style.right="0px";
+			</script>
+	</body>
+</html>
